@@ -14,6 +14,8 @@ In Python, variables are dynamically typed and act as references to objects in m
 Example:  
 ```python
 # Immutable example
+y = 3.14    # Float: Points to a memory location with the value 3.14.
+z = "Hello" # String: Points to a memory location containing the string "Hello".
 x = 10  # Integer: points to a memory location with the value 10.
 x = 20  # Points to a new memory location with the value 20.
 
