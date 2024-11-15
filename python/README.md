@@ -1,11 +1,11 @@
-### **Python Basics**
+# **Python Basics**
 
-#### **Introduction to Python**  
+## **Introduction to Python**  
 Python is a high-level, interpreted programming language built on top of the C programming language. Unlike compiled languages, Python code is executed line by line by the Python interpreter, making it easier to debug and experiment with. Its simplicity and readability make it an excellent choice for beginners and professionals alike.
 
 ---
 
-#### **Variables in Python**  
+## **Variables in Python**  
 In Python, variables are dynamically typed, meaning you don’t need to declare their type explicitly. Internally, Python variables act as references to objects stored in memory. Here are some key points about variables and memory:
 
 - **Integer and Float**: Stored as immutable(cannot be changed) objects. Any change creates a new object in memory.
@@ -31,7 +31,7 @@ print(my_dict)                # Output: {'key1': 'value1', 'key2': 'value2'}
 
 ---
 
-#### **Working with Strings**  
+## **Working with Strings**  
 Python provides multiple ways to define and work with strings:
 
 1. **Single Quotes**: `'This is a string'`
@@ -50,7 +50,7 @@ string.'''  # Triple quotes
 
 ---
 
-#### **Naming Conventions**  
+## **Naming Conventions**  
 Python follows specific naming conventions for readability and consistency:
 
 - **Variables**: Use snake_case (e.g., `my_variable`)
@@ -60,7 +60,7 @@ Python follows specific naming conventions for readability and consistency:
 
 ---
 
-#### **Conditional Statements**  
+## **Conditional Statements**  
 In Python, conditions evaluate the truthiness of an expression. For example:
 
 ```python
@@ -77,7 +77,7 @@ Explanation:
 
 ---
 
-#### **Logical Operators: `and` and `or`**  
+## **Logical Operators: `and` and `or`**  
 - **`and`**: Evaluates to `True` if both conditions are `True`.
 - **`or`**: Evaluates to `True` if at least one condition is `True`.
 
