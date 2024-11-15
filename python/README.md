@@ -1,11 +1,11 @@
-### **Python Basics: A Beginner's Guide**
+# **Python Basics: A Beginner's Guide**
 
-#### **Introduction to Python**  
+## **Introduction to Python**  
 Python is a high-level, interpreted programming language built on top of the C programming language. Unlike compiled languages, Python executes code line by line using an interpreter, making debugging and experimentation easier. Its simplicity and readability make it ideal for both beginners and professionals.
 
 ---
 
-#### **Variables in Python**  
+## **Variables in Python**  
 In Python, variables are dynamically typed and act as references to objects in memory.  
 
 - **Immutable objects**: Integers, floats, and strings. Changes create new objects.  
@@ -38,12 +38,12 @@ else:
 
 ---
 
-#### **Working with Strings**  
+## **Working with Strings**  
 Strings in Python can be written in multiple ways:  
 
-1. **Single Quotes**: `'This is a string'`  
-2. **Double Quotes**: `"This is also a string"`  
-3. **Triple Quotes**: `'''For multi-line strings'''`  
+1. **Single Quotes**: `'This is a string'`
+2. **Double Quotes**: `"This is also a string"` 
+3. **Triple Quotes**: `'''For multi-line strings'''`
 
 Example:  
 ```python
@@ -66,16 +66,16 @@ print(escaped)     # Output: New line:
 
 ---
 
-#### **Naming Conventions**  
+## **Naming Conventions**  
 Follow these conventions for readability:  
-- **Variables and functions**: Use `snake_case` (e.g., `my_variable`, `calculate_sum`).  
-- **Constants**: Use `ALL_CAPS` (e.g., `PI = 3.14159`).  
+- **Variables and functions**: Use `snake_case` (e.g., `my_variable`, `calculate_sum`).
+- **Constants**: Use `ALL_CAPS` (e.g., `PI = 3.14159`).
 - Avoid using Python's reserved keywords as names.  
 [Refer to the official list of keywords](https://docs.python.org/3/reference/lexical_analysis.html#keywords).  
 
 ---
 
-#### **Conditional Statements**  
+## **Conditional Statements**  
 Python evaluates the truthiness of expressions:  
 
 - `0`, `None`, `False`, empty objects (`[]`, `{}`, `""`) are **falsy**.  
@@ -98,7 +98,7 @@ else:
 
 ---
 
-#### **Logical Operators: `and` and `or`**  
+## **Logical Operators: `and` and `or`**  
 - **`and`**: Returns `True` if both conditions are `True`.  
 - **`or`**: Returns `True` if at least one condition is `True`.  
 
