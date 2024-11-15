@@ -22,12 +22,18 @@ x = 20  # Points to a new memory location with the value 20.
 # Mutable list
 my_list = [1, 2, 3]  # List in memory.
 my_list.append(4)    # Updates the same object.
-print(my_list)       # Output: [1, 2, 3, 4]
+if len(my_list) > 3:
+    print(my_list)       # Output: [1, 2, 3, 4]
+else:
+    print("The list has 3 or fewer items.")
 
 # Mutable dictionary
 my_dict = {"key1": "value1"}  # Dictionary in memory.
 my_dict["key2"] = "value2"    # Updates the same object.
-print(my_dict)                # Output: {'key1': 'value1', 'key2': 'value2'}
+if "key2" in my_dict:
+    print(my_dict)                # Output: {'key1': 'value1', 'key2': 'value2'}
+else:
+    print("key2 is not in the dictionary.")
 ```
 
 ---
@@ -45,6 +51,11 @@ message = "Hello, Python!"         # Double quotes
 multi_line = '''This is
 a multi-line string.'''            # Triple quotes
 escaped = "New line: \nTab: \tEnd" # Escape characters
+
+if "\n" in escaped:
+    print("The string contains a newline.")  # Output: The string contains a newline.
+else:
+    print("The string does not contain a newline.")
 
 print(message)     # Output: Hello, Python!
 print(multi_line)  # Output: This is
@@ -81,6 +92,8 @@ else:
 y = [1, 2, 3]
 if y:
     print("List is not empty")  # Output: List is not empty
+else:
+    print("List is empty")
 ```
 
 ---
@@ -97,10 +110,14 @@ b = 0
 # `and` example
 if a > 5 and b == 0:
     print("Both conditions are True")  # Output: Both conditions are True
+else:
+    print("At least one condition is False")
 
 # `or` example
 if a > 5 or b > 0:
     print("At least one condition is True")  # Output: At least one condition is True
+else:
+    print("Neither condition is True")
 
 # Non-boolean values with `and` and `or`
 result = a and b  # a is truthy; evaluates to b (0)
