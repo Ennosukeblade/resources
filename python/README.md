@@ -1,4 +1,4 @@
-# **Python Basics: A Beginner's Guide**
+# **Python Essentials: Quick Reference and Summary**
 
 ## **Introduction to Python**  
 Python is a high-level, interpreted programming language built on top of the C programming language. Unlike compiled languages, Python executes code line by line using an interpreter, making debugging and experimentation easier. Its simplicity and readability make it ideal for both beginners and professionals.
@@ -16,8 +16,8 @@ Example:
 # Immutable example
 y = 3.14    # Float: Points to a memory location with the value 3.14.
 z = "Hello" # String: Points to a memory location containing the string "Hello".
-x = 10  # Integer: points to a memory location with the value 10.
-x = 20  # Points to a new memory location with the value 20.
+x = 10      # Integer: points to a memory location with the value 10.
+x = 20      # Points to a new memory location with the value 20.
 
 # Mutable list
 my_list = [1, 2, 3]  # List in memory.
@@ -41,9 +41,9 @@ else:
 ## **Working with Strings**  
 Strings in Python can be written in multiple ways:  
 
-1. **Single Quotes**: `'This is a string'`
-2. **Double Quotes**: `"This is also a string"` 
-3. **Triple Quotes**: `'''For multi-line strings'''`
+1. **Single Quotes**: `'This is a string'`  
+2. **Double Quotes**: `"This is also a string"`  
+3. **Triple Quotes**: `'''For multi-line strings'''`  
 
 Example:  
 ```python
@@ -66,12 +66,37 @@ print(escaped)     # Output: New line:
 
 ---
 
-## **Naming Conventions**  
-Follow these conventions for readability:  
-- **Variables and functions**: Use `snake_case` (e.g., `my_variable`, `calculate_sum`).
-- **Constants**: Use `ALL_CAPS` (e.g., `PI = 3.14159`).
-- Avoid using Python's reserved keywords as names.  
-[Refer to the official list of keywords](https://docs.python.org/3/reference/lexical_analysis.html#keywords).  
+## **Function Basics**  
+Functions in Python are reusable blocks of code that perform specific tasks.  
+
+- **Defining a function**: Use the `def` keyword.  
+- **Parameters**: Functions can accept arguments.  
+- **Return values**: Use the `return` statement to output a value.  
+
+Example:  
+```python
+# Define a function
+def greet(name):
+    return f"Hello, {name}!"
+
+# Call the function
+result = greet("Alice")
+if result:
+    print(result)  # Output: Hello, Alice!
+else:
+    print("No greeting generated.")
+
+# Function with multiple parameters
+def add_numbers(a, b):
+    return a + b
+
+# Using the function
+sum_result = add_numbers(5, 10)
+if sum_result > 10:
+    print(f"The sum is {sum_result}")  # Output: The sum is 15
+else:
+    print("The sum is less than or equal to 10.")
+```
 
 ---
 
