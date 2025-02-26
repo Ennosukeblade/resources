@@ -32,32 +32,35 @@ The goal of this assignment is to help you practice writing SQL queries based on
 
 ## Assignment Questions:
 
-1. **Retrieve all employees:**
+1. **Add records to the database:**
+   Write SQL queries to add at least five records to each of the `employees`, `departments`, `projects`, and `employees_projects` tables.
+
+2. **Retrieve all employees:**
    Write a SQL query to retrieve all columns from the `employees` table.
 
-2. **Find employees in a specific department:**
+3. **Find employees in a specific department:**
    Write a SQL query to retrieve the first name, last name, and job title of employees who belong to the department with code 'HR'.
 
-3. **List all projects:**
+4. **List all projects:**
    Write a SQL query to retrieve all columns from the `projects` table.
 
-4. **Find employees working on a specific project:**
+5. **Find employees working on a specific project:**
    Write a SQL query to retrieve the first name and last name of employees who are working on the project with ID 5.
 
-5. **Count the number of employees in each department:**
+6. **Count the number of employees in each department:**
    Write a SQL query to count the number of employees in each department and display the department code and the count.
 
-6. **Find the highest salary:**
+7. **Find the highest salary:**
    Write a SQL query to find the highest salary in the `employees` table.
 
-7. **Update an employee's job title:**
+8. **Update an employee's job title:**
    Write a SQL query to update the job title of the employee with ID 10 to 'Senior Developer'.
 
-8. **Delete a project:**
+9. **Delete a project:**
    Write a SQL query to delete the project with ID 3 from the `projects` table.
 
-9. **One-to-Many Left Join Departments with Employees:**
-   Write a SQL query to perform a LEFT JOIN between the `departments` and `employees` tables to retrieve all departments and their employees, including departments without employees.
+10. **One-to-Many Left Join Departments with Employees:**
+    Write a SQL query to perform a LEFT JOIN between the `departments` and `employees` tables to retrieve all departments and their employees, including departments without employees.
 
-10. **Many-to-Many Join Employees - Projects:**
+11. **Many-to-Many Join Employees - Projects:**
     Write a SQL query to retrieve all employees and the projects they are working on, including employees without projects and projects without employees.
