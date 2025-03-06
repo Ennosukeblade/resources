@@ -1,36 +1,16 @@
-# Flask Task Manager - Setup & Usage
+# Flask Task Manager
+
 
 ## Overview
 This Flask application allows users to:
+- View all tasks
 - Add tasks
 - View individual tasks
 - Delete tasks
 
-Tasks are stored in the **Flask session**, meaning they persist only for the session duration.
+Tasks are stored in the **Flask session**
 
----
-
-## Environment Setup
-### Prerequisites
-Ensure you have:
-- Python (>= 3.6)
-- Flask installed
-
-### Installation Steps
-1. Clone or download the repository.
-2. Navigate to the project directory.
-3. Install Flask using:
-   ```bash
-   pip install flask
-   ```
-
-### Running the Application
-Start the Flask app by executing:
-```bash
-python app.py
-```
-Access the application at **http://127.0.0.1:5000/**.
-
+![Task Manager Screenshot](todo_list.png)
 ---
 
 ## Routes Overview
@@ -38,11 +18,11 @@ Access the application at **http://127.0.0.1:5000/**.
 ### Home Page
 **Route:** `/`
 - Displays all tasks.
-- Generates a unique ID for each session.
+- Form to add a task.
 
 ### Add Task
 **Route:** `/add_task` (POST)
-- Accepts form data to create a new task.
+- Accepts form data to create a new task with a unique ID.
 - Redirects back to the home page after submission.
 
 ### View a Task
@@ -53,14 +33,4 @@ Access the application at **http://127.0.0.1:5000/**.
 **Route:** `/tasks/<id>/delete`
 - Deletes a task based on its ID.
 - Redirects back to the home page.
-
----
-
-## Key Discussion Points
-- **Flask session usage** for storing tasks.
-- **Handling missing task IDs** gracefully.
-- **Possible improvements**, such as using a database instead of session storage.
-
-**Best,**  
-Mouadh
 
