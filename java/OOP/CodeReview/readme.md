@@ -1,7 +1,3 @@
-Here is the **complete Java-based OOP assignment** rewritten with all your updates:
-
----
-
 ## 🧪 Java Code Review Assignment
 ### **RPG Champion System – OOP Practice**
 
