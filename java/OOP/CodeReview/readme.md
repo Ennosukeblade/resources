@@ -1,10 +1,12 @@
-## 🧪 Java Code Review Assignment
-### **RPG Champion System – OOP Practice**
+## ☕ Java Code Review OOP Assignment
+### 🕹️ **RPG Game**
+
+![RPG Game](rpg_game.jpg)
 
 ---
 
 ### 🎯 Objective:
-In this code review, we will **collaboratively implement an RPG-style character system** using Object-Oriented Programming principles in Java. The goal is to understand **inheritance, abstraction, polymorphism, and interfaces** while working with real-world logic.
+In this code review, we will **collaboratively implement an RPG-style game** using Object-Oriented Programming principles in Java. The goal is to understand **inheritance, abstraction, polymorphism, and interfaces** while working with real-world logic.
 
 ---
 
@@ -124,7 +126,7 @@ This class extends `Champion` and implements **two interfaces**:
 
 ---
 
-### 🍾 4. Interface: `IHealthBottleBearer`
+### 🧪 4. Interface: `IHealthBottleBearer`
 
 ```java
 public interface IHealthBottleBearer {
@@ -140,7 +142,7 @@ public interface IHealthBottleBearer {
 
 ---
 
-### 🔮 5. Interface: `IManaBottleBearer`
+### 💧 5. Interface: `IManaBottleBearer`
 
 ```java
 public interface IManaBottleBearer {
