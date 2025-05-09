@@ -30,6 +30,7 @@ Create an abstract class `Champion` with:
 - `String name`
 - `int health`
 - `int attackDamage`
+- `boolean pickedUpHealthBottle = false`
 
 #### Constructor:
 - Takes all three values as parameters and initializes them.
@@ -49,7 +50,7 @@ Create an abstract class `Champion` with:
 
 ### ⚔️ 2. Class: `BladeMaster`
 
-This class extends `Champion`.
+This class extends `Champion` and implements `IHealthBottleBearer`
 
 #### Additional Fields:
 - `boolean rage` (default: `false`)
@@ -91,7 +92,6 @@ This class extends `Champion` and implements **two interfaces**:
 
 #### Additional Fields:
 - `int mana = 100`
-- `boolean pickedUpHealthBottle = false`
 - `boolean pickedUpManaBottle = false`
 
 #### Constructor:
