@@ -22,6 +22,11 @@ In this exercise, you will implement a simple card guessing game using Java. The
    - If the player chooses to play again, generate a new random card and repeat the process.
    - If the player chooses to quit, display the history of all guessed cards and exit the game.
 
+   ## Game Flow Diagram
+
+   ![Card Guessing Game Flow](guess-card-game.svg)
+
+
 ## Classes and Methods
 
 ### `CardGame` Class
