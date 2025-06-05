@@ -5,7 +5,7 @@ This is a simple web application built with Flask that allows users to manage a 
 - View all tasks
 - See details for each task
 - Delete tasks
-Each **task** is assigned a unique ID and **tasks** are stored in the **Flask session**
+- Each **task** is assigned a unique ID and **tasks** are stored in the **Flask session**
 
 ![Todo List Screenshot](todo_list.png)
 ---
