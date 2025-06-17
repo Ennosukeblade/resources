@@ -47,7 +47,7 @@ Build a simple Flask web application to manage a collection of video games. This
 
 ![Edit Game page](edit.png) -->
 
-[Video Game Collection app Wireframe](Welcome!.png)
+![Video Game Collection app Wireframe](Welcome!.png)
 
 ---
 
